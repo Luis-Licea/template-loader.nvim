@@ -136,6 +136,7 @@ function M.setup(options)
             desc = 'Load template into the buffer.',
         })
     end
+    return M
 end
 
 return M
