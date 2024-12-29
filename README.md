@@ -85,5 +85,9 @@ Use the commands `ChooseTemplate` and `LoadTemplate` to manually load templates 
 :LoadTemplate /home/luis/.config/nvim/templates/.editorconfig
 ```
 
+## Minimal working example
+
+Use the [exmaple-configuration] to set up a minimal working example.
 
 [lazy.nvim]: https://github.com/folke/lazy.nvim
+[exmaple-configuration]: ./example-configuration
