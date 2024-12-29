@@ -76,7 +76,7 @@ function M.setup(options)
     options.select_template_command = options.select_template_command or 'SelectTemplate'
     options.load_template_command = options.load_template_command or 'LoadTemplate'
 
-    M.autogroup = vim.api.nvim_create_augroup('TemplateLoading', {})
+    M.autogroup = vim.api.nvim_create_augroup('TemplateLoader', {})
     -- Load templates for new files using the file type.
     if options.auto_loading_pattern then
         -- Validate template folder path.
